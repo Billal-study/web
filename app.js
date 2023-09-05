@@ -8,6 +8,7 @@ app.get('/billal',(req,res)=>{
 })
 app.get('/',(req,res)=>{
     res.send("Billal Hossain home route                                                     test")
+    console.log('billal');
 })
 
 app.listen(process.env.PORT)
