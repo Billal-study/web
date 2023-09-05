@@ -7,7 +7,7 @@ app.get('/billal',(req,res)=>{
     res.render('index',{titleName:"Mr tech..."})
 })
 app.get('/',(req,res)=>{
-    res.send("Billal Hossain home route")
+    res.send("Billal Hossain home route                                                     test")
 })
 
 app.listen(process.env.PORT)
